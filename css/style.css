@@ -626,7 +626,7 @@ pre code {
   word-break: normal;
 }
 
-.pre-sllable {
+.pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
@@ -10837,7 +10837,7 @@ h6,
 .offer,
 .footer {
   background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
