@@ -24,6 +24,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
+    <!-- Animate.css & AOS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
 </head>
@@ -59,9 +63,12 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="img/IMG_2682.JPG" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">Welcome To</h2>
-                        <h1 class="display-1 text-white m-0">IDN Canteen</h1>
-                        <h2 class="text-white m-0">By: IDN Boarding School</h2>
+                        <h2 class="text-primary font-weight-medium m-0 animate__animated animate__fadeInDown"
+                            data-aos="fade-down">Welcome To</h2>
+                        <h1 class="display-1 text-white m-0 animate__animated animate__fadeInUp" data-aos="zoom-in">IDN
+                            Canteen</h1>
+                        <h2 class="text-white m-0 animate__animated animate__fadeInUp animate__delay-1s"
+                            data-aos="fade-up">By: IDN Boarding School</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -87,7 +94,7 @@
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
                 <h1 class="display-4">IDN Canteen</h1>
             </div>
@@ -483,6 +490,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
 </body>
 
 </html>
