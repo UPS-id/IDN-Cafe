@@ -29,14 +29,16 @@
     <!-- Animate.css & AOS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Hover enhancements (subtle micro-interactions) -->
+    <link href="css/hover-enhancements.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
+    <div class="container-fluid p-0 nav-bar" data-aos="fade-down" data-aos-delay="0">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">IDN Canteen</h1>
+                <h1 class="m-0 display-5 text-uppercase text-white">IDN Canteen</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -58,8 +60,8 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
-            style="min-height: 400px">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px"
+            data-aos="fade-up">
             <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Contact</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
@@ -74,62 +76,63 @@
     <!-- Contact Start -->
     <div class="container-fluid pt-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact Us</h4>
-                <h1 class="display-4">Feel Free To Contact</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right"
+                    data-aos-delay="0">Contact Us</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Feel Free To Contact</h1>
             </div>
             <div class="row px-3 pb-2">
-                <div class="col-sm-4 text-center mb-3">
+                <div class="col-sm-4 text-center mb-3" data-aos="fade-up" data-aos-delay="0">
                     <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Address</h4>
                     <p>Pamijahan, Bogor, Indonesia</p>
                 </div>
-                <div class="col-sm-4 text-center mb-3">
+                <div class="col-sm-4 text-center mb-3" data-aos="fade-up" data-aos-delay="100">
                     <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Phone</h4>
                     <p>+62 842 5903 9478</p>
                 </div>
-                <div class="col-sm-4 text-center mb-3">
+                <div class="col-sm-4 text-center mb-3" data-aos="fade-up" data-aos-delay="200">
                     <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Email</h4>
                     <p>idncafe@gmail.com</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 pb-5">
+                <div class="col-md-6 pb-5" data-aos="fade-right" data-aos-delay="300">
                     <iframe style="width: 100%; height: 443px;"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5417.950353695738!2d106.64832177620899!3d-6.666284293328687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d11270ea83ed%3A0xa457fae935fcf6c9!2sIDN%20Boarding%20School%20Pamijahan%20Bogor!5e1!3m2!1sen!2sid!4v1760062460562!5m2!1sen!2sid"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-                <div class="col-md-6 pb-5">
+                <div class="col-md-6 pb-5" data-aos="fade-left" data-aos-delay="300">
                     <div class="contact-form">
                         <div id="success"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
+                            <div class="control-group" data-aos="fade-up" data-aos-delay="150">
                                 <input type="text" class="form-control bg-transparent p-4" id="name"
                                     placeholder="Your Name" required="required"
                                     data-validation-required-message="Please enter your name" />
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">
+                            <div class="control-group" data-aos="fade-up" data-aos-delay="200">
                                 <input type="email" class="form-control bg-transparent p-4" id="email"
                                     placeholder="Your Email" required="required"
                                     data-validation-required-message="Please enter your email" />
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">
+                            <div class="control-group" data-aos="fade-up" data-aos-delay="250">
                                 <input type="text" class="form-control bg-transparent p-4" id="subject"
                                     placeholder="Subject" required="required"
                                     data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">
+                            <div class="control-group" data-aos="fade-up" data-aos-delay="300">
                                 <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message"
                                     placeholder="Message" required="required"
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div>
+                            <div data-aos="zoom-in" data-aos-delay="350">
                                 <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit"
                                     id="sendMessageButton">Send
                                     Message</button>
@@ -146,13 +149,13 @@
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hubungi Kami</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>IDN Boarding School, Jonggol, Bogor, Indonesia</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+62 812-3456-7890</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@idncanteen.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Media Sosial</h4>
                 <p>Ikuti kami di media sosial untuk update menu dan promo terbaru!</p>
                 <div class="d-flex justify-content-start">
@@ -166,7 +169,7 @@
                             class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
                 <div>
                     <h6 class="text-white text-uppercase">Monday - Friday</h6>
@@ -175,7 +178,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                 <p>Dapatkan info menu dan promo terbaru dari IDN Canteen langsung ke email Anda!</p>
                 <div class="w-100">
@@ -198,7 +201,6 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
@@ -217,13 +219,10 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
     <!-- AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({ duration: 800, once: true });
-    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

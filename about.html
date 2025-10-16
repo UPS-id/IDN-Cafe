@@ -24,6 +24,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+    <!-- Hover enhancements (subtle micro-interactions) -->
+    <link href="css/hover-enhancements.css" rel="stylesheet">
     <!-- Animate.css & AOS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
@@ -31,10 +33,10 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
+    <div class="container-fluid p-0 nav-bar" data-aos="fade-down" data-aos-delay="0">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-6 text-uppercase text-white">IDN Canteen</h1>
+                <h1 class="m-0 display-5 text-uppercase text-white">IDN Canteen</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -57,7 +59,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
-            style="min-height: 400px">
+            style="min-height: 400px" data-aos="fade-up">
             <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">About Us</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
@@ -71,17 +73,18 @@
     <!-- About Start -->
     <section id="about" class="container-fluid py-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">IDN Canteen</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right"
+                    data-aos-delay="0">About Us</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Welcome To IDN Canteen</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 justify-content-center align-items-center d-flex mb-4 mb-md-0">
-                    <img class="img-fluid" src="img/IMG_5986.JPG" alt="Image">
+                    <img class="img-fluid" src="img/IMG_5986.JPG" alt="Image" data-aos="fade-right" data-aos-delay="200">
                 </div>
-                <div class="col-md-6 d-flex flex-column">
-                    <h1 class="mb-3">Apa itu IDN Canteen?</h1>
-                    <p class="mb-0">IDN Canteen adalah kantin digital sekolah yang dikelola oleh siswa dan untuk siswa.
+                <div class="col-md-6 d-flex flex-column" data-aos="fade-left" data-aos-delay="300">
+                    <h1 class="mb-3" data-aos="fade-left" data-aos-delay="350">Apa itu IDN Canteen?</h1>
+                    <p class="mb-0" data-aos="fade-left" data-aos-delay="400">IDN Canteen adalah kantin digital sekolah yang dikelola oleh siswa dan untuk siswa.
                         Kami hadir
                         untuk memberikan pengalaman baru dalam membeli makanan dan minuman di lingkungan sekolah secara
                         cepat, praktis, dan modern melalui sistem berbasis web.
@@ -98,7 +101,7 @@
                         Melalui IDN Canteen, kami ingin menciptakan suasana sekolah yang lebih modern, sehat, dan
                         produktif.
                     </p>
-                    <a href="" class="btn btn-primary fw-bold py-2 px-4 rounded-2">See More<i
+                    <a href="" class="btn btn-primary fw-bold py-2 px-4 rounded-2" data-aos="zoom-in" data-aos-delay="500">See More<i
                             class="fa-solid fa-angles-down"></i></a>
                 </div>
             </div>
@@ -109,20 +112,20 @@
     <!-- Vision & Mission Start -->
     <section id="vision" class="container-fluid bg-light py-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Vision & Mission</h4>
-                <h1 class="display-4">Visi & Misi Kami</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right">Our Vision & Mission</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Visi & Misi Kami</h1>
             </div>
             <div class="row">
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="bg-white p-4 rounded shadow-sm">
                         <h3 class="text-primary mb-3">Visi Kami</h3>
                         <p class="mb-0">Menjadi kantin digital sekolah yang menumbuhkan semangat inovasi, kemandirian,
                             dan
                             tanggung jawab di kalangan siswa.</p>
-                    </div>
+                    </div> 
                 </div>
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="bg-white p-4 rounded shadow-sm">
                         <h3 class="text-primary mb-3">Misi Kami</h3>
                         <p class="mb-0">Memberikan pengalaman baru dalam membeli makanan dan minuman di lingkungan
@@ -138,15 +141,52 @@
     <!-- Team Start -->
     <section id="team" class="container-fluid py-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Team</h4>
-                <h1 class="display-4">Tim Kami</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right">Our Team</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Tim Kami</h1>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <div class="d-flex flex-wrap justify-content-center" style="gap: 3rem;">
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/testimonial-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Umar Putra S.</h5>
+                        <p class="card-text">Index, Header, and Footer Design</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="250">
+                    <img src="img/Zhafran.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Athallazhafran T.K.</h5>
+                        <p class="card-text">Contact Us Design</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/akrom.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fatih Al-Akram</h5>
+                        <p class="card-text">About Us Design</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="350">
+                    <img src="img/Rafsan.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">M. Rafsanjani</h5>
+                        <p class="card-text">Menu Design</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/Faraz.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Shafaraz Ilhan D.</h5>
+                        <p class="card-text">Testimonial Design</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 12rem;" data-aos="fade-up" data-aos-delay="450">
+                    <img src="img/Keyy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dwi Chaesar P.K.</h5>
+                        <p class="card-text">Services Design</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,13 +196,13 @@
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hubungi Kami</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>IDN Boarding School, Jonggol, Bogor, Indonesia</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+62 812-3456-7890</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@idncanteen.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Media Sosial</h4>
                 <p>Ikuti kami di media sosial untuk update menu dan promo terbaru!</p>
                 <div class="d-flex justify-content-start">
@@ -176,7 +216,7 @@
                             class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
                 <div>
                     <h6 class="text-white text-uppercase">Monday - Friday</h6>
@@ -185,7 +225,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                 <p>Dapatkan info menu dan promo terbaru dari IDN Canteen langsung ke email Anda!</p>
                 <div class="w-100">
@@ -227,13 +267,10 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
     <!-- AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({ duration: 800, once: true });
-    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

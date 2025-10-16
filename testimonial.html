@@ -26,6 +26,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+    <!-- Hover enhancements (subtle micro-interactions) -->
+    <link href="css/hover-enhancements.css" rel="stylesheet">
     <!-- Animate.css & AOS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
@@ -33,7 +35,7 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
+    <div class="container-fluid p-0 nav-bar" data-aos="fade-down" data-aos-delay="0">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
                 <h1 class="m-0 display-4 text-uppercase text-white">IDN Canteen</h1>
@@ -58,9 +60,10 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
-            style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Testimonial</h1>
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px"
+            data-aos="fade-up">
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase" data-aos="fade-up" data-aos-delay="0">
+                Testimonial</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
                 <p class="m-0 text-white px-2">/</p>
@@ -74,11 +77,12 @@
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
-                <h1 class="display-4">Our Clients Say</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right"
+                    data-aos-delay="0">Testimonial</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Our Clients Say</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel mt-5">
+            <div class="owl-carousel testimonial-carousel mt-5" data-aos="fade-left" data-aos-delay="200">
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/testimonial-1.png" alt="">
@@ -148,8 +152,9 @@
                         bersih dan menyenangkan. Menu variatif, dari makanan berat sampai dessert semua enak.
                         Recommended banget buat makan bareng keluarga </p>
                 </div>
+                
             </div>
-            <div class="owl-carousel testimonial-carousel mt-5 pt-5">
+            <div class="owl-carousel testimonial-carousel mt-5 pt-5" data-aos="fade-right" data-aos-delay="200">
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/Rizki.png" alt="">
@@ -158,8 +163,8 @@
                             <i>Student</i>
                         </div>
                     </div>
-                    <p class="m-0">Makanannya nya enak, penyajiannya cepat menu nya bervariasi. recommend lah makan
-                        disini</p>
+                    <p class="m-0">Makanannya enak banget, bumbunya pas dan terasa fresh. Tempatnya juga bersih dan
+                        nyaman. Pelayanannya cepat dan ramah. Pokoknya puas banget makan di sini!</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
@@ -180,8 +185,9 @@
                             <i>Student</i>
                         </div>
                     </div>
-                    <p class="m-0">Menu nya enak enak dan murah, cocok untuk kantong pelajar yang mau makan enak tapi
-                        tidak terlalu mahal, recommend banget lah makan disini!!!</p>
+                    <p class="m-0">Dari awal datang sampai selesai makan, semuanya menyenangkan. Karyawan ramah,
+                        suasananya homey, dan makanannya luar biasa lezat. Rasanya kayak makan di rumah sendiri tapi
+                        versi lebih mewah!</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
@@ -191,8 +197,9 @@
                             <i>Student</i>
                         </div>
                     </div>
-                    <p class="m-0">Restorannya nyaman banget, makanannya enak dan porsinya pas. Pelayanannya juga cepat
-                        dan ramah. Cocok buat makan bareng keluarga atau teman. Pasti bakal balik lagi ke sini!</p>
+                    <p class="m-0">Tempatnya aesthetic banget, cocok buat foto-foto dan nongkrong bareng teman.
+                        Makanannya nggak cuma cantik tampilannya, tapi rasanya juga top! Wajib banget dicoba kalau lagi
+                        di sekitar sini 💫</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
@@ -202,10 +209,9 @@
                             <i>Student</i>
                         </div>
                     </div>
-                    <p class="m-0">Pengalaman makan di sini benar-benar memuaskan! Semua menu yang kami coba rasanya
-                        lezat dan disajikan dengan rapi. Suasananya nyaman, pelayanannya cepat dan ramah banget. Harga
-                        juga sebanding dengan kualitasnya. Pokoknya, recommended banget buat yang cari tempat makan enak
-                        dan berkesan! 🍽️✨</p>
+                    <p class="m-0">PMenu variatif, penyajian rapi, dan cita rasa setiap hidangan konsisten dari awal
+                        sampai akhir. Pelayanannya sigap dan sopan, kebersihan juga terjaga. Salah satu restoran terbaik
+                        yang pernah saya kunjungi!</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
@@ -215,9 +221,9 @@
                             <i>Student</i>
                         </div>
                     </div>
-                    <p class="m-0">Tempatnya luas dan nyaman untuk keluarga. Anak-anak juga betah karena suasananya
-                        bersih dan menyenangkan. Menu variatif, dari makanan berat sampai dessert semua enak.
-                        Recommended banget buat makan bareng keluarga </p>
+                    <p class="m-0">Restoran ini punya suasana yang tenang dan romantis, cocok banget buat dinner berdua.
+                        Setiap hidangan disajikan dengan cantik dan rasanya luar biasa. Servisnya juga profesional
+                        banget. Pengalaman makan yang berkesan ❤️ </p>
                 </div>
             </div>
         </div>
@@ -228,13 +234,13 @@
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hubungi Kami</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>IDN Boarding School, Jonggol, Bogor, Indonesia</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+62 812-3456-7890</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@idncanteen.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Media Sosial</h4>
                 <p>Ikuti kami di media sosial untuk update menu dan promo terbaru!</p>
                 <div class="d-flex justify-content-start">
@@ -248,7 +254,7 @@
                             class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
                 <div>
                     <h6 class="text-white text-uppercase">Monday - Friday</h6>
@@ -257,7 +263,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                 <p>Dapatkan info menu dan promo terbaru dari IDN Canteen langsung ke email Anda!</p>
                 <div class="w-100">
@@ -299,13 +305,10 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
     <!-- AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({ duration: 800, once: true });
-    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

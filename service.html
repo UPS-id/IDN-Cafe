@@ -26,6 +26,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+    <!-- Hover enhancements (subtle micro-interactions) -->
+    <link href="css/hover-enhancements.css" rel="stylesheet">
     <!-- Animate.css & AOS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
@@ -33,10 +35,10 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
+    <div class="container-fluid p-0 nav-bar" data-aos="fade-down" data-aos-delay="0">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">IDN Canteen</h1>
+                <h1 class="m-0 display-5 text-uppercase text-white">IDN Canteen</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -58,8 +60,8 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
-            style="min-height: 400px">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px"
+            data-aos="fade-up">
             <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Services</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
@@ -74,13 +76,14 @@
     <!-- Service Start -->
     <div class="container-fluid pt-5">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Services Provided By IDN</h1>
+            <div class="section-title" data-aos="fade-up">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-aos="fade-right"
+                    data-aos-delay="0">Our Services</h4>
+                <h1 class="display-4" data-aos="fade-left" data-aos-delay="100">Services Provided By IDN</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" data-aos="fade-up" data-aos-delay="0">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
                         </div>
@@ -92,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
                         </div>
@@ -104,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
                         </div>
@@ -116,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" data-aos="fade-up" data-aos-delay="300">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
                         </div>
@@ -136,13 +139,13 @@
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hubungi Kami</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>IDN Boarding School, Jonggol, Bogor, Indonesia</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+62 812-3456-7890</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@idncanteen.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Media Sosial</h4>
                 <p>Ikuti kami di media sosial untuk update menu dan promo terbaru!</p>
                 <div class="d-flex justify-content-start">
@@ -156,7 +159,7 @@
                             class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
                 <div>
                     <h6 class="text-white text-uppercase">Monday - Friday</h6>
@@ -165,7 +168,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                 <p>Dapatkan info menu dan promo terbaru dari IDN Canteen langsung ke email Anda!</p>
                 <div class="w-100">
@@ -207,13 +210,10 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
     <!-- AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({ duration: 800, once: true });
-    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
